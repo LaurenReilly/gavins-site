@@ -1,0 +1,54 @@
+body {
+}
+
+.logo {
+    text-align: right;
+    margin: 0 auto;
+    font-size: 5.9rem;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    background-image: url("images/transparent-logo.png");
+    background-repeat: no-repeat;
+    background-position: 0% center;
+    background-size: contain;
+}
+.navigation {
+    width: 95%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+}
+nav ul {
+    width: 100%;
+    margin: .5rem;
+    font-size: 2rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    list-style: none;
+    color: white;
+    border-radius: 5px;
+}
+
+main {
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+button {
+    margin: 5px;
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 1px 1px black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
